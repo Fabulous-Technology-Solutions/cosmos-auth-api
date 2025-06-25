@@ -13,7 +13,7 @@ app.use('/api/auth', authRoutes);
 
 // Test route
 app.get('/', (req, res) => {
-  res.send('API working');
+  res.send('APIs working');
 });
 
 // Connect DB and start server
